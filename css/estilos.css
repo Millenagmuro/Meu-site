@@ -8,9 +8,20 @@
 	--cor-botao: #009748;
 	--cor-fundo2: #222634;
 	--fundo-form: #222634;
+	--cor-fundo3: #fff;
+}
+body {
+	display: grid;
+	grid-template-areas: 
+	"header header header"
+	"aside main main"
+	"footer footer footer";
+	grid-template-columns: 250px auto auto;
+	grid-template-rows: 8rem 100vh 3rem;
 }
 
 header {
+	grid-area: header;
 	background-color: var(--cor-fundo);
 	text-align: center;
 	padding: 40px 10px;
@@ -20,6 +31,14 @@ header {
 	background-color: #265F72;
 	text-align: center;
 	padding: 20px 50px;
-	color: var(--cor-texto);
+	color: black;
 	opacity: 53%;
+	width: 1440px;
+}
+
+
+.o-footer {
+	grid-area: footer;
+	background-color: var(--cor-fundo3);
+	height: 500px;
 }
