@@ -34,6 +34,9 @@ header {
 	color: black;
 	opacity: 53%;
 	width: 1440px;
+}
+.cabeçalho a {
+	color: white;
 	text-decoration: none;
 }
 
