@@ -27,15 +27,24 @@ header {
 	padding: 40px 10px;
 	background-image: linear-gradient(100deg, #224E61, #176761, #000000,#176761, #224E61 );
 }
-.cabeçalho {
+#menu {
+	display: flex;
+	width: 100vw;
 	background-color: #265F72;
+}
+
+.cabeçalho {
+	width: 1440px;
 	text-align: center;
 	padding: 20px 50px;
 	color: black;
 	opacity: 53%;
-	width: 1440px;
 }
 
+.cabeçalho a {
+	color: white;
+	text-decoration: none;
+}
 
 .o-footer {
 	grid-area: footer;
@@ -49,4 +58,11 @@ header {
 }
 .margem2 {
 	margin: 160px 40px auto 50px;
+}
+.imagem6 {
+   
+
+}
+.lupa {
+
 }
