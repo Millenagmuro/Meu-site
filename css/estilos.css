@@ -34,6 +34,7 @@ header {
 	color: black;
 	opacity: 53%;
 	width: 1440px;
+	text-decoration: none;
 }
 
 
@@ -42,25 +43,50 @@ header {
 	background-color: var(--cor-fundo3);
 	height: 500px;
 	text-align: center;
-}
-.margem1 {
-	text-align: center;
-	margin:60px 80px auto 210px;
-}
-.margem2 {
-	margin: 160px 40px auto 50px;
+	margin-top: 0px;
 }
 .margem3 {
 	color: #454141 ;
 	text-align: center;
 	padding: 20px 50px;
+	width: 400px;
+	margin-top: 200px;
+	height: 100px;
+	margin-left: auto;
 	width: 1440px;
+	
 }
-.dinheiro1 {
-	color: black;
-	margin: ;
-	padding: ;
-	font-size: 40px;
 
 
+/*primeira*/
+.lista_livros {
+	background-color: red;
+	display: flex;
+	margin: 50px;
+	margin-left: 200px;
+	margin-top: 100px;
+
+}
+.margem {
+	width: 200px;
+	text-align: center;
+	background-color: #D9D9D9;
+	margin: 10px;
+
+}
+.margem img {
+	margin: 30px;
+	width: 140px;
+	height: 232px;
+}
+.margem h3 {
+	background-color: #265F72;
+	height: 50px;
+	padding: 5px;
+	font-size: 30px;
+}
+#menu {
+	display: flex;
+	width: 100vw;
+	background-color: #265f72;
 }
