@@ -41,4 +41,9 @@ header {
 	grid-area: footer;
 	background-color: var(--cor-fundo3);
 	height: 500px;
+	width: ;
+}
+.margem {
+	text-align: center;
+	
 }
