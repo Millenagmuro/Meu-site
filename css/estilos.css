@@ -45,5 +45,8 @@ header {
 }
 .margem1 {
 	text-align: center;
-	margin:40px 80px auto 210px;
+	margin:60px 80px auto 210px;
+}
+.margem2 {
+	margin: 160px 40px auto 50px;
 }
